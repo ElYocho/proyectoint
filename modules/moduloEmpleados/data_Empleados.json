@@ -1,0 +1,66 @@
+[
+    {
+        "numero_unico_empleado": "RF01",
+        "nombre": "Juan Luis",
+        "apellido_paterno": "Hernández",
+        "apellido_materno": "Sánchez",
+        "genero": "Masculino",
+        "fecha_nacimiento": "1997-11-23",
+        "rfc": "HSSJ2311977W1",
+        "curp": "HESJ971123HDFLRN04",
+        "foto": "https://i.ytimg.com/vi/485MtL-RPdQ/maxresdefault.jpg",   
+        "domicilio": "Calle 123, Colonia Centro",
+        "codigo_postal": "12345",
+        "ciudad": "Ciudad de México",
+        "estado": "Guanajuato",
+        "telefono": "5551234567",
+        "telefono_movil": "5559876543",
+        "correo_electronico": "juan.luis@example.com",
+        "fecha_ingreso": "2023-01-15",
+        "puesto": "Administrador",
+        "salario": 50000,
+        "email": "juan.luis@example.com",
+        "codigo_empleado": "EMP001",
+        "estatus": "Activo"
+    },
+    {
+        "numero_unico_empleado": "RF02",
+        "nombre": "María del Rocío",
+        "apellido_paterno": "Pérez",
+        "apellido_materno": "Ramírez",
+        "genero": "Femenino",
+        "fecha_nacimiento": "1986-02-19",
+        "rfc": "PERM1902866D0",
+        "curp": "PERM860219MDFZRR01",
+        "foto": "https://th.bing.com/th/id/OIP.N1lPhKD0DQrrIhUiJ9QhmAHaHI?pid=ImgDet&rs=1",
+        "domicilio": "Avenida 456, Colonia Juárez",
+        "codigo_postal": "67890",
+        "ciudad": "Guadalajara",
+        "estado": "Jalisco",
+        "telefono": "3339876543",
+        "telefono_movil": "3337654321",
+        "correo_electronico": "maria.rocio@example.com",
+        "fecha_ingreso": "2023-02-10",
+        "puesto": "Empleado",
+        "salario": 80000,
+        "email": "maria.rocio@example.com",
+        "codigo_empleado": "EMP002",
+        "estatus": "Activo"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

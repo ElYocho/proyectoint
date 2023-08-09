@@ -1,0 +1,33 @@
+    
+    [
+
+       {
+           "username": "luisrosasbocanegra@gmail.com",
+           "password": "Uucy291o",
+           "system": "sicefa1",
+           "nombre": "Luis Rosas Bocanegra",
+           "foto": "img/perfil1.jpg"
+       },
+       {
+           "username": "lalo",
+           "password": "Uucy291o",
+           "system": "sicefa2",
+           "nombre": "Luis Rosas Bocanegra",
+           "foto": "img/perfil2.jpg"
+       },
+        {
+           "username": "Admin",
+           "password": "Admin",
+           "system": "sicefa2",
+           "nombre": "Invitado",
+           "foto": "img/perfil1.jpg"
+       },
+       {
+           "username": "Admin",
+           "password": "Admin",
+           "system": "sicefa1",
+           "nombre": "Invitado",
+           "foto": "img/img/user.png"
+       }
+   ]
+    

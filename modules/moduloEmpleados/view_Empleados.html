@@ -1,0 +1,187 @@
+<!-- Modulo de Empleados -->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container row d-flex justify-content-md-center" style="margin-top: 50px">
+    <div class="card col-lg-5 m-4 p-4">
+        <h2 class="text-center">Gestión de Empleados</h2>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label for="txtNumUnico" class="mt-2 ">Número unico del Empleado</label>
+                <input id="txtNumUnico" type="text"  readonly class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtNombre" class="mt-2">Nombre(s):</label>
+                <input id="txtNombre" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtApePaterno" class="mt-2">Apellido Paterno:</label>
+                <input id="txtApePaterno" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtApeMaterno" class="mt-2">Apellido Materno:</label>
+                <input id="txtApeMaterno" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label class="mt-2">Género:</label>
+                <select class="form-select form-select-sm col-md-6" id="txtGenero" name="txtGenero">
+                    <option value="Masculino" >Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="txtRfc" class="mt-2 col-12">RFC:</label><br>
+                <input id="txtRfc" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtTelefono" class="mt-2">Teléfono Fijo:</label>
+                <input id="txtTelefono" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtMovil" class="mt-2">Teléfono Móvil:</label>
+                <input id="txtMovil" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtCorreo" class="mt-2">Correo Electrónico:</label>
+                <input id="txtCorreo" type="text"  class="mt-2">
+            </div>
+            
+            <div class="col-md-6">
+                <label for="txtFechaNacimiento" class="mt-2 ">Fecha de nacimiento</label>
+                <input id="txtFechaNacimiento" type="date"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtCurp" class="mt-2 ">Curp</label>
+                <input id="txtCurp" type="text"  class="mt-2">
+            </div>
+            
+           
+            <div class="col-md-6">
+                <label for="txtFoto" class="mt-2 ">Foto</label>
+                    
+                <input id="txtFoto" type="file"  class="mt-2">
+            </div> 
+            <div class="col-md-6">
+                <label for="txtDomicilio" class="mt-2 ">Domicilio</label>
+                <input id="txtDomicilio" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtCodigoPostal" class="mt-2 ">Codigo postal</label>
+                <input id="txtCodigoPostal" type="number"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtCiudad" class="mt-2 ">Ciudad</label>
+                <input id="txtCiudad" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label class="mt-2">Estado:</label>
+                <select class="form-select form-select-sm col-md-6" id="txtEstado" name="txtEstado">
+                    <option value="Aguascalientes">Aguascalientes</option>
+                    <option value="Baja California">Baja California</option>
+                    <option value="Baja California Sur">Baja California Sur</option>
+                    <option value="Campeche">Campeche</option>
+                    <option value="Chiapas">Chiapas</option>
+                    <option value="Chihuahua">Chihuahua</option>
+                    <option value="Coahuila">Coahuila</option>
+                    <option value="Colima">Colima</option>
+                    <option value="Durango">Durango</option>
+                    <option value="Estado de México">Estado de México</option>
+                    <option value="Guanajuato">Guanajuato</option>
+                    <option value="Guerrero">Guerrero</option>
+                    <option value="Hidalgo">Hidalgo</option>
+                    <option value="Jalisco">Jalisco</option>
+                    <option value="Michoacán">Michoacán</option>
+                    <option value="Morelos">Morelos</option>
+                    <option value="Nayarit">Nayarit</option>
+                    <option value="Nuevo León">Nuevo León</option>
+                    <option value="Oaxaca">Oaxaca</option>
+                    <option value="Puebla">Puebla</option>
+                    <option value="Querétaro">Querétaro</option>
+                    <option value="Quintana Roo">Quintana Roo</option>
+                    <option value="San Luis Potosí">San Luis Potosí</option>
+                    <option value="Sinaloa">Sinaloa</option>
+                    <option value="Sonora">Sonora</option>
+                    <option value="Tabasco">Tabasco</option>
+                    <option value="Tamaulipas">Tamaulipas</option>
+                    <option value="Tlaxcala">Tlaxcala</option>
+                    <option value="Veracruz">Veracruz</option>
+                    <option value="Yucatán">Yucatán</option>
+                    <option value="Zacatecas">Zacatecas</option>
+                </select>
+
+            </div>
+            <div class="col-md-6">
+                <label for="txtFechaIngreso" class="mt-2 ">Fecha de ingreso</label>
+                <input id="txtFechaIngreso" type="date"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="txtFechaIngreso" class="mt-2 ">Fecha de ingreso</label>
+                <input id="txtFechaIngreso" type="date"  class="mt-2">
+            </div>
+            
+            <div class="col-md-6">
+                <label class="mt-2">Puesto:</label>
+                <select class="form-select form-select-sm col-md-6" id="txtPuesto" name="txtPuesto">
+                    <option value="EMPS" >Empleado</option>
+                    <option value="ADMS">Administrador</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="txtSalario" class="mt-2 ">Salario</label>
+                <input id="txtSalario" type="number"  class="mt-2">
+            </div>
+            
+            
+            
+            
+            
+        </div>
+
+        <div class="d-flex justify-content-around flex-wrap mt-2">
+            <button class="mt-2 btn btn-success btn-lg" onclick="moduloEmpleado.addEmpleado();" id="btnAdd">Registrar</button>
+            <button class="mt-2 btn btn-info btn-lg" onclick="moduloEmpleado.clean();" id="btnClean">Limpiar</button>
+            <button class="mt-2 btn btn-warning btn-lg disabled" onclick="moduloEmpleado.updateEmpleado();" id="btnUpdate">Actualizar</button>
+            <button class="mt-2 btn btn-danger btn-lg disabled" onclick="moduloEmpleado.deleteEmpleado();" id="btnDelete">Eliminar</button>
+        </div>
+    </div>
+
+    <div class="card col-lg-6 p-4 m-4" style="margin-bottom: 10px">
+    <div class="d-flex m-3">
+        <label for="txtBusquedaEmpleado" class="form-label mx-3">Buscar Empleado: </label>
+        <input type="text" id="txtBusquedaEmpleado">
+        <button class="btn btn-primary mx-2" onclick="moduloEmpleado.searchEmpleado();">Buscar</button>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Número Único</th>
+                    <th>Nombre</th>
+                    <th>Apellidos </th>
+                    <th>Género</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>RFC</th>
+                    <th>CURP</th>
+                    <th>Foto</th>
+                    <th>Domicilio</th>
+                    <th>Código Postal</th>
+                    <th>Ciudad</th>
+                    <th>Estado</th>
+                    <th>Teléfono</th>
+                    <th>Teléfono Móvil</th>
+                    <th>Correo Electrónico</th>
+                    <th>Fecha de Ingreso</th>
+                    <th>Puesto</th>
+                    <th>Salario</th>
+                    <th>Email</th>
+                    <th>Estátus</th>
+                </tr>
+            </thead>
+            <tbody id="tblEmpleados">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+</div>

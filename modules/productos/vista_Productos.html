@@ -1,0 +1,104 @@
+
+<!-- Modulo de Productos -->
+<br><br><br><br><br><br><br><br>
+<div class="container-fluid row d-flex justify-content-md-center" style="margin-top: 1300px">
+    <div class="card col-lg-10 m-4 p-4">
+            
+        <h2 class="text-center">Gestión de Productos</h2>
+        
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label for="nombre" class="mt-2 ">Nombre</label><br>
+                <input id="nombre" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="nombre_generico" class="mt-2">Nombre Generico:</label><br>
+                <input id="nombre_generico" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="forma_farmaceutica" class="mt-2">Forma Farmeceutica:</label><br>
+                <input id="forma_farmaceutica" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="unidad_medida" class="mt-2">Unidad de medida:</label><br>
+                <input id="unidad_medida" type="text"  class="mt-2">
+            </div>
+           
+            <div class="col-md-6">
+                <label for="presentacion" class="mt-2 col-12">Presentacion:</label><br>
+                <input id="presentacion" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="indicacion" class="mt-2">Indicicacion:</label><br>
+                <input id="indicacion" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="contraindicacion" class="mt-2">Contraindicacion:</label><br>
+                <input id="contraindicacion" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="concentracion" class="mt-2">Concentracion:</label><br>
+                <input id="concentracion" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="unidades_envase" class="mt-2">Unidad de envase:</label><br>
+                <input id="unidades_envase" type="text"  class="mt-2">
+            </div>
+            <div class="col-md-6">
+                <label for="precio_unitario" class="mt-2">Precio Unitario:</label><br>
+                <input id="precio_unitario" type="text"  class="mt-2">
+            </div>
+           <div class="col-md-6">
+    <label for="foto" class="mt-2">Foto:</label><br>
+    <input id="foto" type="file" class="mt-2">
+</div>
+         <div class="col-md-6">
+                <label for="txtEstatus" class="mt-2">Estatus:</label><br>
+                <select class="form-select form-select-sm col-md-6" id="txtEstatus" name="txtEstatus">
+                    <option value="0">Inactivo</option>
+                    <option value="1">Activo</option>
+                </select>
+            </div>    
+
+        </div>
+
+       <div class="d-flex justify-content-around flex-wrap mt-2">
+          <button class="mt-2 btn btn-success btn-lg" onclick="productos.addProducto();" id="btnAdd">Registrar</button>
+            <button class="mt-2 btn btn-info btn-lg"  onclick="productos.clean();" id="btnClean">Limpiar</button>
+           <button class="mt-2 btn btn-warning btn-lg disabled" onclick="productos.updateProducto();" id="btnUpdate">Modificar</button>
+            <button class="mt-2 btn btn-danger btn-lg disabled"  onclick="productos.deleteProducto();" id="btnDelete">Eliminar</button>
+        </div>
+    </div>
+  
+
+     <div class="card col-lg-12  p-4 m-4" style="margin-bottom: 10px">
+        <div class="d-flex m-3">
+            <label for="txtBusquedaProducto" class="form-label mx-3">Buscar Producto </label>
+            <input type="text" id="txtBusquedaProducto">
+            <button class="btn btn-primary mx-2" onclick="productos.searchProducto();">Buscar</button>
+        </div>
+        
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>FOTO</th>
+                    <th>NOMBRE</th>
+                    <th>NOMBRE GENERICO</th>
+                    <th>FORMA FARMACEUTICA</th>
+                    <th>UNIDAD DE MEDIDA</th>
+                    <th>PRESENTACION</th>
+                    <th>PRINCIPAL INDICACION</th>
+                    <th>CONTRAINDICACIONES</th>
+                    <th>CONCENTRACION</th>
+                    <th>UNIDADES EN ENVASE</th>
+                    <th>PRECIO UNITARIO</th>
+                    <th>ESTATUS</th>
+                </tr>
+            </thead>
+            <tbody id="tblProductos">
+
+            </tbody>
+        </table>
+        </div>
+    
+
